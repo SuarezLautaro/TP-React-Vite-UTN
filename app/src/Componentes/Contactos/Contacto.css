@@ -1,0 +1,36 @@
+/*Color del botón editar y del botón guardar*/
+.orange {
+  background-color: #ffad4a; /*Color del botón*/
+  color: white; /*Color de la letra del botón*/
+}
+/*Color del botón eliminar*/
+.red {
+  background-color: #ff3333e7; /*Color del botón*/
+  color: white; /*Color de la letra del botón*/
+}
+/*Estilo del borde de los datos que se muestran del contacto*/
+.contact-border {
+  border: 1px solid #008CBA;
+  border-radius: 20px;
+  text-align: center; /*Centro el texto (dato a mostrar)*/
+}
+
+/*Estilo del input al editar un contacto*/
+.contact-input {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 8px;
+  border: 1px solid #008CBA;
+  border-radius: 20px;
+  width: calc(100% - 20px); /*Controlo el espacio que ocupará el input*/
+  text-align: center;
+}
+
+/*Estilo del icono*/
+.icon-brush {
+  width: 25px; /*Controlo la posición del icono*/
+  font-size: 1.5em; /*Controlo el tamaño del icono*/
+  color: #008CBA; /*Color del icono*/
+}
+
+  

@@ -1,0 +1,56 @@
+/*Estilo del cuerpo de la página*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Shantell Sans", sans-serif;
+  font-weight: 500;
+  background: linear-gradient(to right, rgba(29, 121, 174, 0.615), rgba(17, 20, 179, 0.433),rgba(109, 81, 195, 0.718),rgba(79, 23, 158, 0.621));
+}
+/*Div padre de todos los componentes*/
+.container-general {
+  background-color: rgba(255, 255, 255, 0.35); /*Le doy un color que quede bien en conjunto con el background del body*/
+  border-radius: 10px;  /*Le proporciono un borde redondeado*/
+  box-shadow: 0 0 20px rgba(238, 239, 241, 0.361); /*Gracias al box-shadow puedo generar ese efecto de luz proveniente del borde del container*/
+  padding: 20px; /*Manipulo el padding del container principal para expandirlo a gusto*/
+  margin: 20px auto; /*Le doy un margen a gusto para que parezca centrado en la página*/
+  max-width: 800px; /*Manipulo el tamaño del div al límitar su tamaño máximo*/
+}
+
+/*Filtro*/
+.container-filtro{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.posicionar-filtro{
+  text-align: end;
+}
+/*Título*/
+h1 {
+  text-align: center;
+  color: #008CBA;
+}
+/*Botón para mostrar todos los contactos*/
+.MostrarContactos {
+  padding: 8px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
+}
+/*Hover del botón para mostrar todos los contactos*/
+.MostrarContactos:hover {
+  background-color: #0077A8;
+}
+
+
+
+
+
+  
+  
+  
+  

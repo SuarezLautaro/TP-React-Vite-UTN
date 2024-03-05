@@ -1,0 +1,25 @@
+/*Input del filtro*/
+.input-filtro {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px; /*Le doy un borde redondeado en las esquinas*/
+    border: 2px solid #5866ad92; /*Le doy un borde al input*/
+    border-style: dotted; /*Le doy un estilo de puntitos al borde*/
+  }
+  /*Botón del filtro*/
+.button-filtro {
+    padding: 8px 20px;
+    background-color: #008CBA; /*Color del botón*/
+    color: white; /*Color del texto del botón*/
+    border: none; /*Elimino su borde*/
+    border-radius: 5px; /*Le doy un borde redondeado en las esquinas*/
+    cursor: pointer; /*Cambio la vista del mouse*/
+  }
+  /*Hover del botón del filtro*/
+.button-filtro:hover {
+    background-color: #0076a8f5;
+  }
+  
+  
+  

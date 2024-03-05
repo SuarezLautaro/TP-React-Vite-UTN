@@ -1,0 +1,73 @@
+/*Estilo de la lista de contactos*/
+.lista-contactos {
+  display: flex; /*Posiciona los contactos uno al lado del otro*/
+  margin-top: 40px;
+  flex-wrap: wrap; /*Permite que al ocupar todo el espacio de la fila, se desplacen hacía abajo para continuar ahí*/
+  justify-content: space-around; /*Espacio entre los contactos añadidos*/
+}
+
+/*Estilo del div de los contactos*/
+.contacto-card {
+  background-color: white; /*Le doy de forma predeterminada un background blanco*/
+  border: 2px solid #5866ad92; /*Le doy un borde al div contenedor del contacto*/
+  border-style: dotted; /*Le doy un estilo de puntitos al borde*/
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px; /*Le doy un borde redondeado*/
+  width: calc((100% - 70px) / 3); /*Ajusto el ancho para que se amolde al div*/
+  height: 390px; /*Le doy 390px para que no salgan los botones del div del contacto*/
+  box-sizing: border-box; /*Es para que el padding incremente hacia su interior*/
+}
+/*Color de nombre, celular y email de la plantilla de la card*/
+.contact-color {
+  color: #008CBA;
+  text-align: center; /*Centro el texto*/
+}
+/*Estilo general de los botones del div card de los contactos*/
+.contacto-card button {
+  color: white; /*Color de la letra de los botones*/
+  cursor: pointer;
+  outline: none; /*Elimino el contorno del botón*/
+  border: none; /*Oculto su borde*/
+  padding: 7px 14px;
+  font-size: 12px; /*Tamaño de la letra de los botones*/
+  font-weight: 600; /*Le doy 600 para que sea visible la letra de los botones*/
+  border-radius: 5px;
+}
+
+/*Estilo del borde del email que se muestra de los contactos*/
+.contact-email {
+  border: 1px solid #008CBA;
+  border-radius: 20px;  /*Logro darle ese aspecto redondeado a las esquinas*/
+  text-align: center; /*Centro el texto (dato a mostrar que en este caso sería el email)*/
+  font-size: 12px; /*Ajusto el tamaño de la letra del email*/
+  padding-top: 6.5px;  /*Le doy espacio superior para que el borde del email se vea similar al borde de los otros datos*/
+  padding-bottom: 6.5px; /*Le doy espacio inferior para que el borde del email se vea similar al borde de los otros datos*/
+}
+
+/*Div para posicionar los botones e icono*/
+.contact-icon {
+  display: flex; /*Le digo que sea flex para posicionarlos sobre la misma línea y no uno debajo del otro*/
+  margin-top: 12px; /*Espacio top para una mejor visibilidad de los botones e icono*/
+  justify-content: space-between; /*Espacio necesario al justificar el contenido para lograr visualizar el icon brush a la derecha y el contenido del div de los botones a la izquierda */
+}
+
+/*Media queries*/
+
+/*Dispositivo: Tablet*/
+@media screen and (max-width: 800px) { /*Límito el width (tamaño de pantalla)*/
+  .lista-contactos .contacto-card {
+    width: calc((100% - 40px) / 2); /*Calculo el ancho a establecer menos 40px por los márgenes laterales*/
+  }
+}
+
+/*Dispositivo: Celular*/
+@media screen and (max-width: 500px) { /*Límito el width (tamaño de pantalla)*/
+  .lista-contactos .contacto-card {
+    width: calc(100% - 20px); /*Calculo el ancho a establecer menos 20px por los márgenes laterales*/
+  }
+}
+
+
+  
+  

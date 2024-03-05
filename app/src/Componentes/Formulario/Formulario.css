@@ -1,0 +1,26 @@
+/*Input de agregar contacto*/
+.input-formulario {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px; /*Le doy un borde redondeado en las esquinas*/
+    border: 2px solid #5866ad92; /*Le doy un borde a los input*/
+    border-style: dotted; /*Le doy un estilo de puntitos al borde*/
+    padding-left: 26px; /*Le doy padding left para expandir el ancho de su input a la izquierda*/
+    padding-right: 26px; /*Le doy padding right para expandir el ancho de su input a la izquierda*/
+  }
+  /*Estilo del botón de agregar contacto*/
+  .button-formulario {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #fb9e2dcf; /*Color del botón*/
+    color: white; /*Color blanco para la letra del botón*/
+    border: none; /*Elimino su borde*/
+    border-radius: 5px; /*Le doy un borde redondeado en las esquinas*/
+    cursor: pointer; /*Cambio la vista del mouse*/
+  }
+  /*Hover*/
+  .button-formulario:hover {
+    background-color: #ffad4a; /*Color del hover del botón*/
+  }
+  
+  
